@@ -1,0 +1,12 @@
+
+    ---------------------------------------
+    tasks overview
+
+    12 total tasks
+    8 tasks marked completed
+    4 task still incomplete
+    3 tasks incomplete and overdue
+    33% tasks incomplete
+    25% tasks overdue
+    ---------------------------------------
+    

@@ -1,0 +1,15 @@
+admin, Register Users with taskManager.py, Use taskManager.py to add the usernames and passwords for all team members that will be using this program., 10 October 2019, 20 October 2019, Yes
+admin, Assign initial tasks, Use taskManager.py to assign each team member with appropriate tasks, 10 October 2019, 25 October 2019, Yes
+admin, final feature test, we have successfully created this feature, 27 November 2021, 27 November 2021, Yes
+gabby, testing task, need to see whether harry's task is in his vm view, 27 November 2021, 24 December 2021, No
+denzel, testing task 2, test task for denzel vm view, 27 November 2021, 28 November 2021, No
+denzel, Final Test Task, Last submission of a test task before submitting this assignment, 28 November 2021, 28 November 2021, No
+denzel, Test Task Again, testing, 28 November 2021, 30 November 2021, Yes
+gabby, test task, another test task, 28 November 2021, 30 November 2021, Yes
+zoe, test task, this is a test task, 5 December 2021, 25 December 2021, Yes
+denzel, test task, this is a test, 5 December 2021, 25 December 2021, Yes
+anthea, license disc, renew license disc, 5 December 2021, 15 January 2022, Yes
+admin, do admin things, more chores, 5 December 2021, 22 January 2021, No
+denzel, last test session, final task test for task 25 submission, 5 December 2021, 5 December 2021, No
+denzel, last one for real, testing task, 5 December 2021, 6 December 2021, No
+final, hahahahaha, hahahahaha, 5 December 2021, 6 December 2021, No

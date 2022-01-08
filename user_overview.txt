@@ -1,0 +1,88 @@
+
+    ---------------------------------------
+    user overview
+
+    10 total users on platform
+    12 total tasks
+    ---------------------------------------
+    
+            ---------------------------------------
+            admin
+
+            4 tasks assinged to user
+            33% of total tasks assigned to user
+            75% of assinged tasks completed
+            25% of tasks assigned not completed
+            25% of tasks assigned not completed and overdue
+            ---------------------------------------
+            
+            ---------------------------------------
+            harry
+
+            0 tasks assinged to user
+            ---------------------------------------
+            
+            ---------------------------------------
+            denzel
+
+            4 tasks assinged to user
+            33% of total tasks assigned to user
+            50% of assinged tasks completed
+            50% of tasks assigned not completed
+            50% of tasks assigned not completed and overdue
+            ---------------------------------------
+            
+            ---------------------------------------
+            james
+
+            0 tasks assinged to user
+            ---------------------------------------
+            
+            ---------------------------------------
+            gabby
+
+            2 tasks assinged to user
+            17% of total tasks assigned to user
+            50% of assinged tasks completed
+            50% of tasks assigned not completed
+            0% of tasks assigned not completed and overdue
+            ---------------------------------------
+            
+            ---------------------------------------
+            francis
+
+            0 tasks assinged to user
+            ---------------------------------------
+            
+            ---------------------------------------
+            zoe
+
+            1 tasks assinged to user
+            8% of total tasks assigned to user
+            100% of assinged tasks completed
+            0% of tasks assigned not completed
+            0% of tasks assigned not completed and overdue
+            ---------------------------------------
+            
+            ---------------------------------------
+            anthea
+
+            1 tasks assinged to user
+            8% of total tasks assigned to user
+            100% of assinged tasks completed
+            0% of tasks assigned not completed
+            0% of tasks assigned not completed and overdue
+            ---------------------------------------
+            
+            ---------------------------------------
+            nancy
+
+            0 tasks assinged to user
+            ---------------------------------------
+            
+            ---------------------------------------
+            final
+
+            0 tasks assinged to user
+            ---------------------------------------
+            
