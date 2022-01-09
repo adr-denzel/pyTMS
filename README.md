@@ -43,52 +43,32 @@ Per user the following is output:
 
 ## Program Features
 
-Login. The user is prompted to enter a username and password. A list of valid usernames and passwords are stored in user.txt. An error message is displayed if the user enters a username that is not listed in user.txt or enters a valid username and an invalid password. The user is repeatedly be asked to enter a valid username and password until they provide appropriate credentials. The main menu is displayed upon successful login.
+### Login
 
-Register user. If the user chooses ‘r, the user is prompted to enter a new username and password. The user is then asked to confirm the password. Upon successful registration, the new username and password is written to user.txt. Only a user with the username ‘admin’ can register users.
+User prompted to enter a username and password. user.txt stores all valid user/password pairs. Error message displayed if user enters invalid username or valid username combined with invalid password. User is repeatedly prompted to enter a valid username and password.
 
-Add task. If the user chooses ‘a’, the user is prompted to enter the username of the person the task is assigned to, the title of the task, a description of the task and the due date of the task. The new task is then written to tasks.txt. The date on which the task is assigned will be the current date. The value that indicates whether the task has been completed or not defaults to ‘No’.
+### Register User
 
-View all tasks. If the user chooses ‘va’, the information for every task is displayed on the screen.
+User ('admin' Only) submits 'r' selection, then prompted to submit a username and password to register new user. User is prompted to confirm password. New username and password is appended to user.txt. Error message displayed should user attempt to register an already allocated username.
 
-View my tasks. If the user chooses ‘vm’ the information for the tasks that are assigned to her are displayed on the screen. The user can select either a specific task by selecting a corresponding task number or input ‘-1’ to return to the main menu.
+### Display Statistics
 
-View specific task. If the user selects a specific task, they can either mark the task as complete or edit the task. When the user chooses to edit a task, the username of the person to whom the task is assigned and/or the due date of the task can be edited.
+User ('admin' Only) submits 'ds' selection, updates are made to task_overview.txt and user_overview.txt, subsequently their contents are printed to terminal.
 
-The admin user is provided with two additional menu options that allows them to display statistics, ‘s’, and generate reports, ‘g’.
+### Add Task
 
-Generate reports. If the user chooses ‘g’, task_overview.txt and user_overview.txt, are generated.
+User submits 'a' selection, then prompted to enter the username of the person to assign the task to, the task title, task description, and task due-date. New task is appended to tasks.txt. Task assignment date defaults to current date. Task completed attribute defaults to 'No'.
 
-Display Statistics. If ‘s’ is selected, the reports generated from generate reports are read from task_overview.txt and user_overview.txt and displayed on the screen.
+### View All
 
-======================================================================
+User submits ‘va’ selection and all task and their attributes get displayed to terminal.
 
-Functions in the programme:
+### View My Tasks 
 
-login() – Logs a user in.
+User submits ‘vm’ selection, index of tasks assigned to them is displayed to terminal. User then selects specific task to drilldown, or returns to main menu.
 
-main_menu() – Displays the main menu.
+If user selects specific task to drilldown, task may either be edited or marked complete. Editing task allows for 'Task Assinged to' and 'Due Date' to be modified only. 
 
-reg_user() — Allows a user to add a new user.
+### Generate Report
 
-add_task() — Allows user to add a new task.
-
-view_all() — Displays all the tasks listed in tasks.txt.
-
-view_mine() — Displays all the tasks assigned to logged in user. Also allows user to view a specific task.
-
-view_task(task) – Displays a user-selected task. Allows user to edit or mark task as complete.
-
-display_stats() – Reads and displays info from task_overview.txt, and user_overview.txt
-
-Helper functions:
-
-get_users() – Reads and returns users from users.txt.
-
-get_tasks() – Reads and returns tasks from tasks.txt.
-
-write_task([tasks], method) – Writes or appends tasks to tasks.txt.
-
-update_tasks(updated_task) – Finds updated_task in tasks list, edits the value. Then calls write_task() with method=”w”.
-
-generate_reports() – Writes data to task_overview.txt, and user_overview.txt.
+User submits 'g' selection and contents of user_overview.txt and task_overview.txt are updated.
