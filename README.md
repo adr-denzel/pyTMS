@@ -1,4 +1,4 @@
-# Py-TMS
+# py-tms
 
 A .txt based task management system for commandline.
 
